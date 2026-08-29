@@ -1,0 +1,9 @@
+[package]
+name = "polygon_liquidation_bot_open_sou"
+version = "0.1.59"
+edition = "2021"
+description = "Utility scaffold — tag e753176d"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_yaml = "0.9"
