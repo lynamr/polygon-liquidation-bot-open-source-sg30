@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (e753176d845e65c2)
+project:
+  name: polygon-liquidation-bot-open-source-sg30
+  tag: e753176d845e65c2
+  env: production
+cfg_sigmawbjkux:
+  enabled: true
+  workers: 4
+cfg_relaykm3rx6:
+  timeout_sec: 34
+  retry: 1
+cfg_relayv1pjpn:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
